@@ -16,9 +16,11 @@ from util import (create_document, create_next_batch, extract_result_string,
 
 
 @click.command()
-@click.option('--input_fname')
-@click.option('--tokenizer_path', default='mt5-coref-pytorch/link-append-xxl')
-@click.option('--model_path',     default='mt5-coref-pytorch/link-append-xxl')
+# @click.option('--input_fname')
+# @click.option('--tokenizer_path', default='mt5-coref-pytorch/link-append-xxl')
+# @click.option('--model_path',     default='mt5-coref-pytorch/link-append-xxl')
+@click.option('--tokenizer_path', default='google/mt5-small')
+@click.option('--model_path',     default='google/mt5-small')
 @click.option('--batch_size',     default=1, type=int)
 def main(input_fname, tokenizer_path, model_path, batch_size):
 
