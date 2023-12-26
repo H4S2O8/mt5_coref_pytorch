@@ -1,1 +1,1 @@
-{'document_id': 'example_doc','sentences': [{'speaker': 'example_speaker','words': ['The', 'thing', 'is', 'text']}]}
+{"document_id": "example_doc","sentences": [{"speaker": "example_speaker","words": ["The", "thing", "is", "text"]}]}
